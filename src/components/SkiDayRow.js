@@ -30,6 +30,6 @@ export const SkiDayRow = ({resort, date, powder, backcountry}) => (
 SkiDayRow.propTypes = {
     resort: PropTypes.string.isRequired,
     date: PropTypes.instanceOf(Date).isRequired,
-    powder: PropTypes.bool,
+    powder: PropTypes.bool.isRequired,
     backcountry: PropTypes.bool
 }
